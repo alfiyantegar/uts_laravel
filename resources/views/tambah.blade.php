@@ -55,8 +55,8 @@
                     <label for="pendidikan">PENDIDIKAN</label>
                     <input type="text" name="pendidikan" id="pendidikan" required="required"><br/>
                     <label for="jenis_kelamin">JENIS KELAMIN</label>
-                    <input type="radio" name="jenis_kelamin" value="laki-laki" required>LAKI-LAKI
-                    <input type="radio" name="jenis_kelamin" value="perempuan" required>PEREMPUAN<br/><br/>
+                    <input type="radio" name="jenis_kelamin" value="laki-laki" required>Laki-laki
+                    <input type="radio" name="jenis_kelamin" value="perempuan" required>Perempuan<br/><br/>
                     <input type="submit" class="btn btn-success my-3" value="Simpan Data">
                 </form>
             </div>
