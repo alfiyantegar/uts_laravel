@@ -30,7 +30,7 @@
         <th>TANGGAL LAHIR</th>
         <th>AGAMA</th>
         <th>PENDIDIKAN</th>
-        <th>TELEPON</th>
+        <th>JENIS KELAMIN</th>
         
     </tr>
     </thead>
@@ -47,7 +47,7 @@
         <td>{{ $p->tanggal_lahir }}</td>
         <td>{{ $p->agama }}</td>
         <td>{{ $p->pendidikan }}</td>
-        <td>{{ $p->hp }}</td>
+        <td>{{ $p->jenis_kelamin }}</td>
     </tr>
     @endforeach
     </tbody>

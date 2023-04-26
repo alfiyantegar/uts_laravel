@@ -34,7 +34,7 @@
                 <form action="/kependudukan/store" method="post">
                     {{ csrf_field() }}
                     <label for="nik">NIK</label>
-                    <input type="text" name="nik" id="nik" required="required"><br/>
+                    <input type="number" name="nik" id="nik" required="required"><br/>
                     <label for="nama">NAMA</label>
                     <input type="text" name="nama" id="nama" required="required"><br/>
                     <label for="alamat">ALAMAT</label>
@@ -54,10 +54,9 @@
                     </select><br/>
                     <label for="pendidikan">PENDIDIKAN</label>
                     <input type="text" name="pendidikan" id="pendidikan" required="required"><br/>
-                    <form action="/kependudukan/validate" method="post">
-                    {{ csrf_field() }}
-                    <label for="hp">HP</label>
-                    <input type="text" name="hp" id="hp" required="required"><br/><br/>
+                    <label for="jenis_kelamin">JENIS KELAMIN</label>
+                    <input type="radio" name="jenis_kelamin" value="laki-laki" required>LAKI-LAKI
+                    <input type="radio" name="jenis_kelamin" value="perempuan" required>PEREMPUAN<br/><br/>
                     <input type="submit" class="btn btn-success my-3" value="Simpan Data">
                 </form>
             </div>

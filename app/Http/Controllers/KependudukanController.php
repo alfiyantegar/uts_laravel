@@ -40,7 +40,7 @@ class KependudukanController extends Controller
                 "tanggal_lahir"=>$request->tanggal_lahir,
                 "agama"=>$request->agama,
                 "pendidikan"=>$request->pendidikan,
-                "hp"=>$request->hp,
+                "jenis_kelamin"=>$request->jenis_kelamin,
             );
 
             $data=kependudukan::create($data);
@@ -61,15 +61,15 @@ class KependudukanController extends Controller
                 "tanggal_lahir"=>$request->tanggal_lahir,
                 "agama"=>$request->agama,
                 "pendidikan"=>$request->pendidikan,
-                "hp"=>$request->hp,
+                "jenis_kelamin"=>$request->jenis_kelamin,
             ));
-
+            
             if($data){
                 return redirect('/kependudukan')->with(array('status'=>true,'berhasil ubah data'));
             }else{
                 return json_encode(array('status'=>false,'pesan'=>"gagal ubah data"));
             }
-        }
+        }            
         public function ubah($nik){
             $data=kependudukan::where('nik',$nik)->get();
             return view('ubah',['data'=>$data]);
@@ -105,3 +105,5 @@ class KependudukanController extends Controller
             return Excel::download(new kependudukanExport,'kependudukan.xlsx');
         }
 }
+
+

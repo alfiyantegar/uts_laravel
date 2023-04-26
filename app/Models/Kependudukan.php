@@ -17,7 +17,7 @@ protected $table ='kependudukan';
         'tanggal_lahir',
         'agama',
         'pendidikan',
-        'hp',
+        'jenis_kelamin',
 
     ];
 }
