@@ -4,7 +4,7 @@
  <!-- Default box -->
  <div class="card">
         <div class="card-header">
-          <h3 class="card-title">Title</h3>
+          <h3 class="card-title">Selamat Datang</h3>
 
           <div class="card-tools">
             <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -12,15 +12,20 @@
             </button>
             <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
               <i class="fas fa-times"></i>
+              <script>
+              document.querySelector('.btn-tool[data-card-widget="remove"]').addEventListener('click', function() {
+                window.location.href = '/kependudukan';
+                });
+              </script>
             </button>
           </div>
         </div>
         <div class="card-body">
-          Start creating your amazing application!
+          Ini Adalah Website Kependudukan Berbasis CRUD
         </div>
         <!-- /.card-body -->
         <div class="card-footer">
-          Footer
+          Silahkan tutup pesan ini untuk ke halaman utama
         </div>
         <!-- /.card-footer-->
       </div>

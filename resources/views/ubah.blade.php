@@ -37,7 +37,7 @@
                     <label for="nik">NIK</label>
                     <input type="text" name="nik" required="required" value="{{$kependudukan->nik}}" readonly><br/>
                     <label for="nama">NAMA</label>
-                    <input type="text" name="nama" id="nama" required="required"><br/>
+                    <input type="text" name="nama" id="nama" required="required" ><br/>
                     <label for="alamat">ALAMAT</label>
                     <input type="text" name="alamat" id="alamat" required="required"><br/>
                     <label for="tempat_lahir">TEMPAT LAHIR</label>
