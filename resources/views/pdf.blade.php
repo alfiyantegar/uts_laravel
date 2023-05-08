@@ -30,6 +30,8 @@
         <th>TANGGAL LAHIR</th>
         <th>AGAMA</th>
         <th>PENDIDIKAN</th>
+        <th>STATUS KAWIN</th>
+        <th>JUMLAH SAUDARA</th>
         <th>JENIS KELAMIN</th>
         
     </tr>
@@ -47,6 +49,8 @@
         <td>{{ $p->tanggal_lahir }}</td>
         <td>{{ $p->agama }}</td>
         <td>{{ $p->pendidikan }}</td>
+        <td>{{ $p->status_kawin }}</td>
+        <td>{{ $p->jumlah_saudara }}</td>
         <td>{{ $p->jenis_kelamin }}</td>
     </tr>
     @endforeach

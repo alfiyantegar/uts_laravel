@@ -17,6 +17,8 @@ protected $table ='kependudukan';
         'tanggal_lahir',
         'agama',
         'pendidikan',
+        'status_kawin',
+        'jumlah_saudara',
         'jenis_kelamin',
 
     ];

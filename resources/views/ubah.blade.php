@@ -55,6 +55,11 @@
                     </select><br/>
                     <label for="pendidikan">PENDIDIKAN</label>
                     <input type="text" name="pendidikan" id="pendidikan" required="required"><br/>
+                    <label for="status_kawin">STATUS KAWIN</label>
+                    <input type="radio" name="status_kawin" value="Belum kawin" required>Belum Kawin<br/>
+                    <input type="radio" name="status_kawin" value="Kawin" required>Kawin<br/>
+                    <label for="jumlah_saudara">JUMLAH SAUDARA</label>
+                    <input type="number" name="jumlah_saudara" id="jumlah_saudara" required="required"><br/>
                     <label for="jenis_kelamin">JENIS KELAMIN</label>
                     <input type="radio" name="jenis_kelamin" value="laki-laki" required>Laki-laki
                     <input type="radio" name="jenis_kelamin" value="perempuan" required>Perempuan<br/><br/>

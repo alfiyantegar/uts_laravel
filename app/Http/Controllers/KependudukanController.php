@@ -40,6 +40,8 @@ class KependudukanController extends Controller
                 "tanggal_lahir"=>$request->tanggal_lahir,
                 "agama"=>$request->agama,
                 "pendidikan"=>$request->pendidikan,
+                "status_kawin"=>$request->status_kawin,
+                "jumlah_saudara"=>$request->jumlah_saudara,
                 "jenis_kelamin"=>$request->jenis_kelamin,
             );
 
@@ -61,6 +63,8 @@ class KependudukanController extends Controller
                 "tanggal_lahir"=>$request->tanggal_lahir,
                 "agama"=>$request->agama,
                 "pendidikan"=>$request->pendidikan,
+                "status_kawin"=>$request->status_kawin,
+                "jumlah_saudara"=>$request->jumlah_saudara,
                 "jenis_kelamin"=>$request->jenis_kelamin,
             ));
             

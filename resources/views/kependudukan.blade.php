@@ -36,6 +36,8 @@
         <th>TANGGAL LAHIR</th>
         <th>AGAMA</th>
         <th>PENDIDIKAN</th>
+        <th>STATUS KAWIN</th>
+        <th>JUMLAH SAUDARA</th>
         <th>JENIS KELAMIN</th>
         <th>OPSI</th>
     </tr>
@@ -49,6 +51,8 @@
         <td>{{ $kependudukan->tanggal_lahir }}</td>
         <td>{{ $kependudukan->agama }}</td>
         <td>{{ $kependudukan->pendidikan }}</td>
+        <td>{{ $kependudukan->status_kawin }}</td>
+        <td>{{ $kependudukan->jumlah_saudara }}</td>
         <td>{{ $kependudukan->jenis_kelamin }}</td>
         <td>
             <a class="btn btn-warning" href='/kependudukan/ubah/{{ $kependudukan->nik}}' ><i class="fas fa-user-edit"></i> Edit
